@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurent App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header id="navbar" class="nav-container">
+        <div class="nav-logo">
+            <h2>
+                Food <br>
+                BUZZ
+            </h2>
+        </div>
+        <div class="nav-menu">
+            <p class="menu-items-holder">
+                <a href="#home">
+                    Home
+                </a>
+            </p>
+            <p class="menu-items-holder">
+                <a href="#about">
+                    About
+                </a>
+            </p>
+            <p class="menu-items-holder">
+                <a href="#products">
+                    Products
+                </a>
+            </p>
+            <p class="menu-items-holder">
+                <a href="#chiefs">
+                    Chiefs
+                </a>
+            </p>
+            
+        </div>
+        <div class="nav-menu-dropdown">
+            <button id="toggleButton">
+                <img id="icon" src="./assets/menu-icon.jpeg" alt="Menu" />
+            </button>
+            <div id="menuContainer" class="menu-container">
+                <div class="menu-container-links">
+                    <div id="menu">
+                        <p>
+                            <a class="nav-menu-dropdown-items" href="#home">
+                                Home
+                            </a>
+                        </p>
+                        <p>
+                            <a class="nav-menu-dropdown-items" href="#about">
+                                About
+                            </a>
+                        </p>
+                        <p>
+                            <a  class="nav-menu-dropdown-items" href="#products">
+                                Products
+                            </a>
+                        </p>
+                        <p>
+                            <a class="nav-menu-dropdown-items" href="#chiefs">
+                                Chiefs
+                            </a>
+                        </p>
+                    </div>
+                    
+                </div>
+            </div>
+           
+        </div>
+        
+    </header>
+    <div class="content-container">
+        <section id="home" class="home-container">
+            <div class="home-content">
+                <h3>
+                    Welcome to 
+                    <span class="color-primary">
+                        Food BUZZ
+                    </span> !
+                </h3>
+                <p>
+                    “Welcome to a world where elegance meets flavor. Our cheifs craft exquisite dishes that transform
+                     each meal into a timeless experience. Indulge in the art of culinary perfection, where every plate 
+                     is a masterpiece waiting to be savored.”
+                </p>
+                <button id="exploreBtn" class="explore-btn">
+                    Explore Menu !
+                </button>
+            </div>
+            <div class="home-img">
+                <img src="./assets/res-food.jpeg" alt="food" />
+            </div>
+        </section>
+        <section id="about" class="about-container">
+            <h2>
+                About Us
+            </h2>
+            <p>
+                "Welcome to
+                <span style="color: rgb(250, 113, 64);">
+                    Food BUZZ
+                </span> 
+                , your ultimate companion for discovering, booking, and savoring
+                 the finest culinary experiences. We bring the world of gastronomy to your fingertips, 
+                 making every meal an adventure."
+            </p>
+            <p>
+                "Our mission is to make dining a delightful and effortless experience. Whether you’re a food enthusiast, a casual diner, or someone exploring new cuisines, 
+                <span style="color: rgb(250, 113, 64);">Food BUZZ</span>
+                is here to help you find the perfect spot and enhance your dining journey."
+            </p>
+            <p>
+               "We believe in celebrating food, fostering connections, and creating memorable moments through dining. Our app aims to bridge the gap between great restaurants and passionate food lovers, making dining out as enjoyable and convenient as possible."
+            </p>
+        </section>
+        <section id="products" class="product-container-wrapper">
+            <h3 >
+                OUR PRODUCTS
+            </h3>
+            <div class="product-container">
+                <div class="product-card-flip-container">
+                    <div class="card-container">
+                        <div class="card">
+                            <div class="card-front">
+                                <img src="./assets/tandoori.jpeg" alt="tandoori" />
+                            </div>
+                            <div class="card-back">
+                                <h4>
+                                    Tandoori
+                                </h4>
+                                <p>Savor the rich, smoky flavors crafted in our traditional clay oven.</p>
+                                <h6>
+                                    Price : 350 Rs
+                                </h6>
+                                <button>
+                                    Order Now
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card-flip-container">
+                    <div class="card-container">
+                        <div class="card">
+                            <div class="card-front">
+                                <img src="./assets/briyani.jpeg" alt="briyani" />
+                            </div>
+                            <div class="card-back">
+                                <h4>
+                                    Briyani
+                                </h4>
+                                <p>Relish our perfectly layered biryani, a symphony of spices and aromas.</p>
+                                <h6>
+                                    Price : 350 Rs
+                                </h6>
+                                <button>
+                                    Order Now
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card-flip-container">
+                    <div class="card-container">
+                        <div class="card">
+                            <div class="card-front">
+                                <img src="./assets/panner.jpeg" alt="briyani" />
+                            </div>
+                            <div class="card-back">
+                                <h4>
+                                    Panner Butter Masala
+                                </h4>
+                                <p>Experience the timeless flavors of our exquisite paneer butter masala.</p>
+                                <h6>
+                                    Price : 350 Rs
+                                </h6>
+                                <button>
+                                    Order Now
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button id="viewMoreProduct">
+                View More ...
+            </button>
+        </section>
+        <section>
+            <div class="getstarted">
+                <h5>
+                    WELCOME TO 
+                    <span style="font-weight: bold;">
+                        Food BUZZ
+                    </span>
+                </h5>
+                <p>
+                    Enjoy the all new varieties of foods and an never ending love for the foods here !
+                </p>
+                <button id="getStartedWithUs">
+                    Get Started with us
+                </button>
+            </div>
+        </section>
+        <section class="accordin-container">
+            <h4>
+                Frequently Asked Questions ?
+            </h4>
+            <div class="accordion">
+                <div class="accordion-item">
+                    <button class="accordion-header">
+                        What are your opening hours ?
+                    </button>
+                    <div class="accordion-content">
+                        <p>
+                            We are open 7 days from 9.00 AM  to 9.00 PM.
+                        </p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-header">
+                        Do I need a reservation ?
+                    </button>
+                    <div class="accordion-content">
+                        <p>
+                            Reservations are recommended, especially during peak hours, but walk-ins are welcome based on availability.
+                        </p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-header">
+                        Do you offer takeout or delivery ?
+                    </button>
+                    <div class="accordion-content">
+                        <p>
+                            es, we offer takeout and delivery. You can place an order via our website, app, or by calling 9999999999.
+                        </p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-header">
+                        What payment methods do you accept ?
+                    </button>
+                    <div class="accordion-content">
+                        <p>
+                            We accept cash, credit/debit cards, and digital payments like [specific services, e.g., Apple Pay, Google Pay].
+                        </p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-header">
+                        Do you offer vegetarian/vegan/gluten-free options ?
+                    </button>
+                    <div class="accordion-content">
+                        <p>
+                            Yes, we have a variety of [vegetarian/vegan/gluten-free] dishes. Please check our menu or ask your server for recommendations
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="promises" class="promises-container">
+            <h5>
+                Our Promises
+            </h5>
+            <div class="promise-card-container">
+                <div class="promise-card">
+                    <h6>
+                        Easy Order
+                    </h6>
+                    <img src="./assets/promises-timer.jpeg" alt="timer">
+                    <p>
+                        "Get Your Food Fast and Easy – Just a Tap Away!"
+                    </p>
+                </div>
+                <div class="promise-card">
+                    <h6>
+                        Best Quality
+                    </h6>
+                    <img src="./assets/promises-quality.jpeg" alt="timer">
+                    <p>
+                        "Fine Dining Begins with Fine Quality – Experience It!"
+                    </p>
+                </div>
+                <div class="promise-card">
+                    <h6>
+                        Fast Delivery
+                    </h6>
+                    <img src="./assets/promises-delivery.jpeg" alt="timer">
+                    <p>
+                        "Quick and Easy Delivery for Every Craving!"
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section id="chiefs" class="chief-container-wrap">
+            <h3>
+                Our Chiefs
+            </h3>
+           <div class="chief-container">
+            <div class="chief-card">
+                <img src="./assets/chief1.jpeg" alt="chief1">
+               <div class="card-content">
+                <h3>
+                    Lucas
+                </h3>
+                <h6>
+                    Executive chief
+                </h6>
+                <p>
+                    The top chef responsible for kitchen operations, menu planning, and food quality.
+                </p>
+               </div>
+            </div>
+            <div class="chief-card">
+                <img src="./assets/chief2.jpeg" alt="chief1">
+               <div class="card-content">
+                <h3>
+                    Luna
+                </h3>
+                <h6>
+                    Sous Chef
+                </h6>
+                <p>
+                    The second-in-command in the kitchen, assisting the executive chef and managing daily kitchen activities.
+                </p>
+               </div>
+            </div>
+            <div class="chief-card">
+                <img src="./assets/chief3.jpeg" alt="chief1">
+               <div class="card-content">
+                <h3>
+                    Naruto
+                </h3>
+                <h6>
+                    Chef de Cuisine
+                </h6>
+                <p>
+                    Responsible for managing a specific kitchen within a restaurant (often in larger establishments with multiple kitchens).
+                </p>
+               </div>
+            </div>
+            
+           </div>
+           <button id="viewMoreChief" >
+            View More
+           </button>
+        </section>
+        <section id="reviews" class="review-container">
+            <h3 >
+                Customer Reviews 
+            </h3>
+            <h6 >
+                Our Happy Customers
+            </h6>
+            <div class="question-body">
+                <div class="questionContainer">
+                    <div class="questionCard" id="card-1">
+                        <div class="questionCardContainer">
+                            <div class="questionCardContainerUser">
+                               <img src="./assets/chief1.jpeg" alt="user1">
+                               <h5>
+                                Minato
+                               </h5>
+                            </div>
+                            <div class="questionCardContent">
+                                <h6>
+                                    Food BUZZ Special Combo !
+                                </h6>
+                                <p style="margin-bottom: 10px;">
+                                    Delicious food, beautifully presented.
+                                </p>
+                                <p style="color: rgb(250, 113, 64);">
+                                    Rating : 8/10
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="questionCard" id="card-2">
+                        <div class="questionCardContainer">
+                            <div class="questionCardContainerUser">
+                               <img src="./assets/chief1.jpeg" alt="user1">
+                               <h5>
+                                Naruto
+                               </h5>
+                            </div>
+                            <div class="questionCardContent">
+                                <h6>
+                                    Ramen !
+                                </h6>
+                                <p style="margin-bottom: 10px;">
+                                    Fresh ingredients and well-prepared dishes.
+                                </p>
+                                <p style="color: rgb(250, 113, 64);">
+                                    Rating : 7.5/10
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="questionCard" id="card-3">
+                        <div class="questionCardContainer">
+                            <div class="questionCardContainerUser">
+                               <img src="./assets/chief1.jpeg" alt="user1">
+                               <h5>
+                                Itachi
+                               </h5>
+                            </div>
+                            <div class="questionCardContent">
+                                <h6>
+                                    Chicken Fest!
+                                </h6>
+                                <p style="margin-bottom: 10px;">
+                                    Excellent flavors and friendly service.
+                                </p>
+                                <p style="color: rgb(250, 113, 64);">
+                                    Rating : 9/10
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="buttons">
+                        <button id="prevBtn">Previous</button>
+                        <button id="nextBtn">Next</button>
+                    </div>
+                </div>
+            </div>
+
+            <button class="review-more">
+                View More
+            </button>
+
+            <div class="review-form">
+                <input type="text" placeholder="your feedback" >
+                <button id="submitReview">
+                    Submit
+                </button>
+            </div>
+        </section>
+        <section id="footer" class="footer-container">
+           <div class="footer-container-1">
+            <div class="footer-content-1">
+                <div class="order-cateogory">
+                    <h5>
+                        Order By Cateogory
+                    </h5>
+                    <p>
+                        <a href="">
+                            BreakFast Items
+                        </a>
+                    </p>
+                    <p>
+                        <a href="">
+                            Lunch Items
+                        </a>
+                    </p>
+                    <p>
+                        <a href="">
+                            Dinner Items
+                        </a>
+                    </p>
+                    <p>
+                        <a href="">
+                            North  Indian Items
+                        </a>
+                    </p>
+                    <p>
+                        <a href="">
+                            Foreign Items
+                        </a>
+                    </p>
+                </div>
+                <div class="support">
+                    <h5>
+                        Support
+                    </h5>
+                    <p>
+                        <a href="">
+                            Shop Locator
+                        </a>
+                    </p>
+                    <p>
+                        <a href="">
+                            Order Status
+                        </a>
+                    </p>
+                  
+                </div>
+            </div>
+            <div class="footer-content-2">
+                <div class="restaurent">
+                    <h5>
+                        Restaurent
+                    </h5>
+                    <p>
+                        <a href="">
+                            Customer service
+                        </a>
+                    </p>
+                    <p>
+                        <a href="">
+                            Terms of Use
+                        </a>
+                    </p>
+                    <p>
+                        <a href="">
+                            Privacy
+                        </a>
+                    </p>
+                    <p>
+                        <a href="">
+                            Careers
+                        </a>
+                    </p>
+                    <p>
+                        <a href="#about">
+                            About
+                        </a>
+                    </p>
+                    <p>
+                        <a href="">
+                            Affiliate
+                        </a>
+                    </p>
+                    <p>
+                        <a href="">
+                            Sustainability
+                        </a>
+                    </p>
+                </div>
+                <div class="contact">
+                    <h5>
+                        Contact
+                    </h5>
+                    <div class="contact-email">
+                        <label>
+                            Email
+                        </label>
+                        <p>
+                            <a href="">
+                                abc@gmail.com
+                            </a>
+                        </p>
+                    </div>
+                    <div class="contact-phone">
+                        <label>
+                            Phone
+                        </label>
+                        <p>
+                            <a href="">
+                                9999578799
+                            </a>
+                        </p>
+                    </div>
+                    <div class="contact-address">
+                        <label>
+                            Address
+                        </label>
+                        <p>
+                            valsravakkam , Chennai
+                        </p>
+                    </div>
+                    <div class="contact-time">
+                        <label>
+                            Hours
+                        </label>
+                        <p>
+                            Monday-Friday
+                        </p>
+                        <p>
+                            6.00 AM - 10.00 PM IST
+                        </p>
+                    </div>
+                </div>
+            </div>
+           </div>
+           <div class="footer-container-2">
+              <div class="store-locator">
+                <h5>
+                    Store Locator
+                </h5>
+                <label>
+                    Find Our Branch Near You
+                </label>
+                <button id="findUs">
+                    Find Us
+                </button>
+              </div>
+              <div class="follow-us">
+                <h5>
+                    Follow Us On
+                </h5>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com" target="_blank">
+                        <img src="./assets/instagram-logo.jpeg" alt="instagram">
+                    </a>
+                    <a href="https://www.facebook.com" target="_blank">
+                        <img src="./assets/facebook-icon.jpeg" alt="facebook">
+                    </a>
+                    <a href="https://github.com" target="_blank">
+                        <img src="./assets/github-icon.jpeg" alt="github">
+                    </a>
+                    <a href="https://linkedin.com" target="_blank">
+                        <img src="./assets/linkedin-icon.jpeg" alt="linkedin">
+                    </a>
+                </div>
+              </div>
+              <div class="subscribe">
+                <h5>
+                    Subscribe
+                </h5>
+                <label>
+                    Recieve our latest updates with this subscription
+                </label>
+                <input  type="email" placeholder="Email Address">
+                <button id="subscribe">
+                    Subscribe
+                </button>
+              </div>
+           </div>
+           <div class="footer-container-3">
+            <div class="footer-logo">
+                <h2>
+                    Food
+                    BUZZ
+                </h2>
+            </div>
+            <div class="footer-copyrights">
+                <h5>
+                    2024@ <span> </span>All Rights Reserved
+                </h5>
+            </div>
+            
+           </div>
+        </section>
+    </div>
+    
+   
+
+    <button id="scrollToTopBtn" class="scroll-to-top" title="Scroll to Top">↑</button>
+    <script src="script.js"></script>
+</body>
+</html>
